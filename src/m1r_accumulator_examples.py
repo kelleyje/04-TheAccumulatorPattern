@@ -52,7 +52,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #
 #              for k in range(r - s):           (r-(s+1))
 #                  count = 0                    should be before the loop
-#                  if math.cos(r) > 0:          should reference k not r
+#                  if math.cos(r) > 0:          should be r+k not r
 #                      count = 1                should be count += 1
 #                  return count                 should be outside the loop
 #
